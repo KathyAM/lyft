@@ -39,7 +39,6 @@ header {
 	line-height: 25px;
 }
 
-/* características de todos los links de la página */
 .link {
 	text-decoration: none;
 	color: #FFF;
@@ -134,10 +133,16 @@ input[type=button], input[type=submit], input[type=reset] {
 	font-size: 8px;
 }
 
-.text
- p a {
+.text p a {
 	text-decoration: none;
 	color: #B70A95;
+}
+
+.patch{
+	display: inline-flex;
+	width: 100%;
+	height: 480px;
+	background: #FFF;
 }
 
 .patch2 {
@@ -154,31 +159,13 @@ input[type=button], input[type=submit], input[type=reset] {
 	display: inline-flex;
 }
 
-.blurb > div {
-	width: 577px;
-	margin-left: 10%;
-}
-
-.blurb > div > h3 {
-	font-size: 28px;
-	font-weight: 500;
-	line-height: 1.1;
-}
-
-.cellphone > img {
-	width: 459px;
+.cellphone img {
 	padding-top: 35px;
 	padding-right: 10%;
+	width: 459px;
 }
 
-.patch3, .patch4, .patch5 {
-	width: 100%;
-	height: 480px;
-	display: inline-flex;
-	background: #FFF;
-}
-
-.watch-1, .watch-2, .watch-3 {
+.watch{
 	width: auto;
 	margin: 175px 50px;
 }
