@@ -1,3 +1,278 @@
-/*
- * Estilos de tu proyecto
- */
+body {
+	font-family: 'Montserrat', sans-serif; 
+	font-size: 16px;
+	font-weight: 300;
+	margin: 0 auto;
+	width: 100%; 
+}
+
+header {
+	width: 100%;
+	height: 110px;
+	position: fixed;
+}
+
+.gif-img{
+	background-image:url(../assets/images/hero.gif), linear-gradient(rgba(46, 18, 68, 0.6),transparent); 
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position-y: -130px;
+	width: auto;
+}
+
+.logo {
+	width: 65px;
+	margin-left: 80px;
+    margin-top: 40px;
+}
+
+.header-links {
+	float: right;
+	margin-top: -80px;
+	width: 550px;
+	margin-right: 10px;
+}
+
+.header-links > ul {
+	display: inline-flex;
+	list-style: none;
+	line-height: 25px;
+}
+
+/* características de todos los links de la página */
+.link {
+	text-decoration: none;
+	color: #FFF;
+	padding: 25px;
+	font-weight: 300;
+}
+
+.link:hover {
+	color:#FF00BF;
+}
+
+.login {
+	border: 1px solid #FFF;
+	border-radius: 8px;
+	padding: 8px 18px 0px;
+	margin: 15px 0px;
+}
+
+section {
+	width: 100%;
+}
+
+.patch1 {
+	padding-top: 110px;
+	width: 100%;
+	display: inline-flex;
+}
+
+.form {
+    background-color: #FFF;
+	width: 500px;
+	height: auto;
+	text-align: left;
+	margin-left: auto;
+}
+
+.text {
+	padding: 60px;
+	width: 500px;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 600;
+	color: #352384;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.subtitle {
+	font-size: 14px;
+	font-weight: 500;
+	color: #352384;
+	text-transform: uppercase;
+}
+
+input {
+	border: none;
+	font-size: 15px;
+	width: 450px;
+	height: 50px;
+}
+
+.line {
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 400px;
+    height: 2px;
+    margin-left: 0;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+	font-size: 20px;
+	font-weight: 400;
+    background-color: #FF00BF;
+    border: 1px solid;
+    color: white;
+    padding: 8px 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 190px;
+    height: 49px;
+}
+
+.driver {
+	color: #728099;
+	padding: 20px;
+}
+.text > p {
+	font-size: 8px;
+}
+
+.text
+ p a {
+	text-decoration: none;
+	color: #B70A95;
+}
+
+.patch2 {
+	width: 100%;
+	height: auto;
+	padding: 64px 15px;
+	background: linear-gradient(#76278f,#2b1e66);
+}
+
+.container {
+	width: 100%;
+	padding: 0 16px;
+	color: #FFF;
+	display: inline-flex;
+}
+
+.blurb > div {
+	width: 577px;
+	margin-left: 10%;
+}
+
+.blurb > div > h3 {
+	font-size: 28px;
+	font-weight: 500;
+	line-height: 1.1;
+}
+
+.cellphone > img {
+	width: 459px;
+	padding-top: 35px;
+	padding-right: 10%;
+}
+
+.patch3, .patch4, .patch5 {
+	width: 100%;
+	height: 480px;
+	display: inline-flex;
+	background: #FFF;
+}
+
+.watch-1, .watch-2, .watch-3 {
+	width: auto;
+	margin: 175px 50px;
+}
+
+.watch-1 a, .watch-2 a, .watch-3 a {
+	text-decoration: none;
+	color: #000;
+	font-weight: 500;
+}
+
+.watch-1 h3, .watch-2 h3, .watch-3 h3 {
+	font-size: 28px;
+	font-weight: 500;
+	line-height: 1.1;
+	margin: 20px 0px 20px;
+}
+
+.watch-1 p, .watch-2 p, .watch-3 p {
+	font-weight: 400;
+}
+
+footer { 
+	width: 100%;
+	height: 600px;
+	background: #333447;
+	text-align: center;
+}
+
+.footer-above {
+	width: 100%;
+	height: auto;
+	text-align:left;
+	display: inline-flex;
+}
+
+.footer-above > div {
+	width: 22%;
+	height: 55%;
+	display: block;
+}
+
+.lists {
+	min-width: 110px;
+	list-style: none;
+	text-align: left;
+	margin: 30%;
+}
+
+.lists h3 {
+	color: #FFF;
+}
+
+.lists li a {
+	padding: 0;
+	line-height: 40px;
+}
+
+.logos ul li img {
+	min-width: 160px;
+	max-width: 160px;
+	padding-bottom: 20px;
+}
+
+.webicons {
+	list-style: none;
+	display: inline-flex;
+	padding: 0 15px;
+}
+
+.circle {
+	font-size: 16px;
+	line-height: 30px;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	border: 1px solid #fff;
+	border-radius: 100%;
+	margin: 0 30px;
+}
+
+.circle .fa {
+	color: #FFF;
+}
+
+.secondline {
+    border: none;
+    border-bottom: 1px solid #EEE;
+    width: 700px;
+    height: 2px;
+    margin: auto;
+}
+
+.last {
+	font-size: 14px;
+	color: #FFF;
+}
